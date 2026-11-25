@@ -1,0 +1,136 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+/* External CSS */\
+\
+* \{\
+    box-sizing: border-box;\
+    margin: 0;\
+    padding: 0;\
+\}\
+\
+body \{\
+    font-family: Arial, sans-serif;\
+    background-color: #f2f5f9;\
+\}\
+\
+/* Header */\
+\
+header \{\
+    background-color: #243b55;\
+    color: white;\
+    text-align: center;\
+    padding: 25px;\
+\}\
+\
+/* Navigation Bar */\
+\
+.navbar \{\
+    display: flex;\
+    justify-content: center;\
+    gap: 35px;\
+    background-color: #141e30;\
+    padding: 15px;\
+\}\
+\
+.navbar a \{\
+    color: white;\
+    text-decoration: none;\
+    font-weight: bold;\
+\}\
+\
+.navbar a:hover \{\
+    color: #f0c674;\
+\}\
+\
+/* Flexbox Layout */\
+\
+.container \{\
+    display: flex;\
+    justify-content: center;\
+    align-items: stretch;\
+    flex-wrap: wrap;\
+    gap: 25px;\
+    padding: 30px;\
+\}\
+\
+/* Cards */\
+\
+.card \{\
+    background-color: white;\
+    width: 280px;\
+    padding: 25px;\
+    text-align: center;\
+    border-radius: 10px;\
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);\
+\}\
+\
+.card h2 \{\
+    color: #243b55;\
+    margin-bottom: 15px;\
+\}\
+\
+.card p \{\
+    color: #555;\
+    line-height: 1.5;\
+\}\
+\
+button \{\
+    color: white;\
+    border: none;\
+    padding: 10px 18px;\
+    margin-top: 20px;\
+    border-radius: 5px;\
+    cursor: pointer;\
+\}\
+\
+/* Footer */\
+\
+footer \{\
+    background-color: #243b55;\
+    color: white;\
+    text-align: center;\
+    padding: 20px;\
+    margin-top: 20px;\
+\}\
+\
+/* Responsive Design - Tablet */\
+\
+@media screen and (max-width: 768px) \{\
+    .container \{\
+        flex-direction: column;\
+        align-items: center;\
+    \}\
+\
+    .navbar \{\
+        gap: 18px;\
+    \}\
+\}\
+\
+/* Responsive Design - Mobile */\
+\
+@media screen and (max-width: 480px) \{\
+    header h1 \{\
+        font-size: 24px;\
+    \}\
+\
+    .navbar \{\
+        flex-direction: column;\
+        align-items: center;\
+        gap: 15px;\
+    \}\
+\
+    .card \{\
+        width: 100%;\
+    \}\
+\
+    .welcome \{\
+        margin: 20px 10px;\
+    \}\
+\}\
+}
